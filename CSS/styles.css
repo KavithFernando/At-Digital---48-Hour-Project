@@ -8,8 +8,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 89.45%;
-    height: auto;
     height: 77px;
     padding: 2px 80px;
     background-color: #6B3CC9;
@@ -24,8 +22,8 @@ nav .logo {
 nav ul {
     list-style: none;
     display: flex;
-    
 }
+
 nav ul li a{
     margin: auto 14px;
     /* Font----------------- */
@@ -178,6 +176,7 @@ nav ul li a:hover {
     padding: 24px;
     border-radius: 7px;
     margin-bottom: 15px;
+    background-color: #FAF8FF;
 }
 
 .faq-title {
@@ -301,5 +300,70 @@ nav ul li a:hover {
     text-transform: capitalize;
     color: white;
     /* --------------------- */
+}
+/* --------------------------------------------------------------- */
+
+/* 1440px - 1200px------------------------------------------------ */
+@media (max-width: 1200px) and (min-width: 768px) {
+    nav {
+        padding: 2px 60px;
+    }
+
+    .hero {
+        /* Background---------------- */
+        background-position: left 100%;
+        /* -------------------------- */
+    }
+
+    .hero-message {
+        width: 580px;
+        height: 250px;
+        top: 400px;
+        left: 60px;
+    }
+
+    .card {
+        max-width: 896px;
+        max-height: 346px;
+    }
+
+    .card img {
+        width: 346px;
+        height: 346px;
+    }
+    
+    .card-details {
+        width: 530px;
+        height: 187px;
+        max-height: 187px;
+    }
+
+    .faq {
+        max-width: 896px;
+        max-height: 392px;
+    }
+
+    .faq-question {
+        width: 896px;
+        max-width: 896px;
+        margin-bottom: 13px;
+    }
+
+    .footer {
+        padding: 40px 60px 20px 60px;
+    }
+    
+    .footer-mission {
+        width: 438px;
+        max-width: 438px;
+    }
+    
+    .footer-details {
+        width: 530px;
+    }
+    
+    .footer-details > div {
+        width: 255px;
+    }
 }
 /* --------------------------------------------------------------- */
