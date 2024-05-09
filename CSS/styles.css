@@ -92,7 +92,7 @@ nav ul li {
 /* --------------------------------------------------------------- */
 
 /* Content section------------------------------------------------ */
-.webMobile {
+.card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +101,7 @@ nav ul li {
     margin: 40px auto 10px auto;
 }
 
-.webMobile img {
+.card img {
     width: 414px;
     height: 414px;
 }
@@ -110,9 +110,9 @@ nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     width: 542px;
     height: 187px;
+    max-height: 206px;
     background-color: white;
 }
 
@@ -136,5 +136,6 @@ nav ul li {
     line-height: 19px;
     color: black;
     /* --------------------- */
+    margin: 20px 0;
 }
 /* --------------------------------------------------------------- */
