@@ -98,7 +98,7 @@ nav ul li {
     align-items: center;
     max-width: 1064px;
     max-height: 414px;
-    margin: 40px auto 10px auto;
+    margin: 40px auto;
 }
 
 .card img {
@@ -138,4 +138,55 @@ nav ul li {
     /* --------------------- */
     margin: 20px 0;
 }
+
+/* FAQ------------------------------------------------------------- */
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 846px;
+    max-height: 392px;
+    margin: 40px auto 80px auto;
+}
+
+.faq .card-title {
+    margin-bottom: 28px;
+}
+
+.faq-questions {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-question {
+    max-height: 150px;
+    padding: 24px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.faq-title {
+    display: flex;
+    justify-content: space-between;
+    /* Font----------------- */
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #6B3CC9;
+    /* --------------------- */
+    margin-bottom: 13px;
+}
+
+.faq-answer {
+    /* Font----------------- */
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6F6C90;
+    /* --------------------- */
+}
+/* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
