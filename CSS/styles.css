@@ -314,7 +314,7 @@ nav ul li a:hover {
 /* --------------------------------------------------------------- */
 
 /* 1440px - 1200px------------------------------------------------ */
-@media (max-width: 2000px) and (min-width: 1000px) {
+@media (max-width: 1440px) and (min-width: 1200px) {
     nav {
         padding: 2px 60px;
     }
@@ -379,7 +379,7 @@ nav ul li a:hover {
 /* --------------------------------------------------------------- */
 
 /* 1200px - 768px------------------------------------------------- */
-@media (max-width: 1000px) and (min-width: 768px) {
+@media (max-width: 1200px) and (min-width: 768px) {
     nav {
         padding: 2px 40px;
     }
@@ -471,8 +471,146 @@ nav ul li a:hover {
 }
 /* --------------------------------------------------------------- */
 
+/* 768px - 500px-------------------------------------------------- */
+@media (max-width: 768px) and (min-width: 500px) {
+    nav {
+        padding: 2px 20px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    nav .menu-icon {
+        display: initial;
+    }
+    
+    .hero {
+        position: relative;
+        width: auto;
+        height: 400px;
+        top: -10px;
+        background-position: bottom;
+    }
+    
+    .hero-message {
+        width: auto;
+        height: 180px;
+        top: 400px;
+        left: 0px;
+        padding: 24px 20px;
+        /* Font----------------- */
+        font-size: 36px;
+        line-height: 36px;
+        /* --------------------- */
+    }
+    
+    .hero-button {
+        margin: 18px 0 8px 0;
+    }
+
+    .content {
+        position: relative;
+        top: 260px;
+    }
+
+    .card {
+        flex-direction: column;
+        max-width: 335px;
+        max-height: 572px;
+        margin: 80px auto;
+    }
+    
+    .card img { 
+        width: 275px;
+        height: 275px;
+    }
+    
+    .card-details {
+        width: 335px;
+        height: 277px;
+        max-height: 277px;
+        text-align: center;
+        margin: 0 auto 60px auto;
+    }
+
+    #digital-card {
+        position: relative;
+        top: 275px;
+    }
+    
+    #digital-image {
+        position: relative;
+        top: -347px;
+    }
+
+    #learn-more {
+        margin: auto;
+    }
+    
+    .faq {
+        max-width: 334px;
+        max-height: 7692px;
+    }
+    
+    .faq .card-title {
+        text-align: center;
+    }
+    
+    .faq-question {
+        width: 334px;
+        max-width: 325px;
+        max-height: 325px;
+    }
+
+    .faq-title p {
+        max-width: 280px;
+    }
+
+    .footer {
+        position: relative;
+        top: 240px;
+        padding: 40px 20px 20px 20px;
+    }
+    
+    .footer-grid {
+        flex-direction: column;
+        max-height: 500px;
+        margin-bottom: 40px;
+    }
+    
+    .footer-mission {
+        width: 330px;
+        max-width: 335px;
+        height: 121px;
+        margin-bottom: 60px;
+    }
+    
+    .footer-details {
+        flex-direction: column;
+        width: 335px;
+        height: 370px;
+    }
+    
+    .footer-details > div {
+        width: 216px;
+        height: 220px;
+        margin-bottom: 40px;
+    }
+    
+    .footer hr {
+        width: 335px;
+    }
+    
+    .footer-info {
+        width: 335px;
+    }
+}
+/* --------------------------------------------------------------- */
+
+
 /* 768px - 375px-------------------------------------------------- */
-@media (max-width: 768px) and (min-width: 250px) {
+@media (max-width: 508px) and (min-width: 350px) {
     nav {
         padding: 2px 20px;
     }
