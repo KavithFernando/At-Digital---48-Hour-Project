@@ -24,6 +24,10 @@ nav .logo {
 nav ul {
     list-style: none;
     display: flex;
+    
+}
+nav ul li a{
+    margin: auto 14px;
     /* Font----------------- */
     font-family: Inter;
     font-size: 14px;
@@ -31,10 +35,12 @@ nav ul {
     color: white;
     line-height: 16px;
     text-transform: uppercase;
+    text-decoration: none;
     /* --------------------- */
 }
-nav ul li {
-    margin: auto 14px;
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 /* --------------------------------------------------------------- */
 
@@ -88,6 +94,12 @@ nav ul li {
     text-transform: uppercase;
     color: white;
     /* --------------------- */
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #ff9b44;
+    cursor: pointer;
 }
 /* --------------------------------------------------------------- */
 
@@ -181,6 +193,11 @@ nav ul li {
     /* --------------------- */
 }
 
+.faq-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .faq-answer {
     display: none;
     /* Font----------------- */
@@ -192,4 +209,97 @@ nav ul li {
     /* --------------------- */
 }
 /* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+
+/* Footer Section------------------------------------------------- */
+.footer {
+    background-color: #6B3CC9;
+    padding: 40px 80px 20px 80px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    max-height: 141px;
+    margin-bottom: 40px;
+}
+
+.footer-mission {
+    width: 413px;
+    max-width: 413px;
+    height: 102px;
+}
+
+.footer-mission .logo {
+    position: relative;
+    top: -10px;
+}
+
+.footer-mission p {
+    /* Font----------------- */
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    /* --------------------- */
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+    width: 522px;
+    height: 141px;
+    /* Font----------------- */
+    font-family: Inter;
+    text-transform: capitalize;
+    color: white;
+    /* --------------------- */
+}
+
+.footer-details > div {
+    width: 197px;
+    height: 98%;
+    overflow: hidden;
+}
+
+.footer-details .footer-title {
+    /* Font----------------- */
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    /* --------------------- */
+}
+
+.footer-details ul li {
+    margin-top: 12px;
+    /* Font----------------- */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* --------------------- */
+}
+
+.footer hr {
+    width: 630px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    width: 630px;
+    margin: 8px auto;
+}
+
+.footer-info p {
+    margin: 0 8px;
+    /* Font----------------- */
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: white;
+    /* --------------------- */
+}
 /* --------------------------------------------------------------- */
