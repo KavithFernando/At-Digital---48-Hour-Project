@@ -367,3 +367,96 @@ nav ul li a:hover {
     }
 }
 /* --------------------------------------------------------------- */
+
+/* 1200px - 768px------------------------------------------------- */
+@media (max-width: 1200px) and (min-width: 768px) {
+    nav {
+        padding: 2px 40px;
+    }
+    
+    .hero {
+        width: auto;
+        height: 448px;
+        top: -20px;
+    }
+    
+    .hero-message {
+        width: auto;
+        height: 208px;
+        left: 0;
+        top: 430px;
+        padding: 24px 40px;
+        margin: 0;
+    }
+    
+    .hero-button {
+        max-width: 224px;
+        max-height: 38px;
+        border-radius: 4px;
+        border: 0px;
+        padding: 12px 20px;
+    }
+
+    .content {
+        position: relative;
+        top: 250px;
+    }
+
+    .card {
+        max-width: 688px;
+        max-height: 275px;
+        margin: 30px auto;
+    }
+    
+    .card img {
+        width: 275px;
+        height: 275px;
+    }
+    
+    .card-details {
+        width: 393px;
+        height: 239px;
+        max-height: 239px;
+    }
+
+    .faq {
+        max-width: 686px;
+        max-height: 506px;
+        margin: 30px auto 68px auto;
+    }
+    
+    .faq-question {
+        width: 686px;
+        max-width: 686px;
+        max-height: 207px;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        position: relative;
+        top: 250px;
+        padding: 40px 40px 20px 40px;
+    }
+    
+    .footer-grid {
+        display: initial;
+        max-height: 141px;
+    }
+    
+    .footer-mission {
+        width: 413px;
+        margin-bottom: 60px;
+    }
+    
+    .footer-details {
+        display: flex;
+        justify-content: space-between;
+        width: 511px;
+        margin-bottom: 40px;
+    }
+    
+    .footer-details > div {
+        width: 216px;
+    }
+}
+/* --------------------------------------------------------------- */
