@@ -33,4 +33,31 @@ function ready() {
     });
     //--------------------------------------------------------------------------
 
+    // Opening and closing the Hamburger Menu-----------------------------------
+    const showMenuButton = document.getElementById("menu-icon");
+    const closeMenuButton = document.getElementById("menu-close-icon");
+    const hamburgerMenu = document.getElementById("list-container");
+
+    showMenuButton.addEventListener('click', function() {
+        // Showing hamburger menu when show button is clicked
+        hamburgerMenu.style.display = 'flex';
+    })
+
+    closeMenuButton.addEventListener('click', function() {
+        // Closing hamburger menu when close button is clicked
+        hamburgerMenu.style.display = 'none';
+        window.addEventListener('resize', function() {
+            const screenWidth = window.innerWidth;
+    
+            if(screenWidth >= 768) {
+                // Showing normal menu when screen width >= 786
+                hamburgerMenu.style.display = 'initial';
+            } else {
+                // Closing normal menu when screen width < 768
+                hamburgerMenu.style.display = 'none';
+            }
+        })
+    });
+    //--------------------------------------------------------------------------
+
 }
